@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  frontend-url: frontend-service
+  backend-url: backend-service
+  postgres-url: db-service
